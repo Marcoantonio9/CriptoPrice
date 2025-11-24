@@ -1,5 +1,4 @@
 import styles from './header.module.css'
-import Logo from '../../assets/logo.svg'
 import { Link } from 'react-router-dom'
 import { MdDarkMode } from "react-icons/md";
 import { useTheme } from "../../context/ThemeContext";
