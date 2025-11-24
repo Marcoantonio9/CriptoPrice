@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  max-width: 1080px;
+}
+
+.buttonTheme{
+  cursor: pointer;
+}
+
+a {
+  font-size: 24px;
+}
+
+a > h1{
+  color: var(--text-color);
+  transition: color 0.3s ease; /* 👈 aqui */
+}
+
+a > h1 > span{
+  color: rgb(5, 128, 228);
+}
+
+@media (max-width: 600px){
+  .container {
+    padding: 0 14px;
+  }
+}
